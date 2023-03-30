@@ -14,11 +14,19 @@
 
 }
 
+.nav{
+    position: fixed;
+    background-color: #fdfdfd;
+    width: 100%;
+    margin-left: 0;
+    color: #fff;
+}
+
 #inicio .contenido-seccion{
     max-width: 1000px;
     margin: auto;
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 10px;
 }
 
 #inicio .contenido-seccion header{
@@ -31,6 +39,7 @@
 #inicio .contenido-seccion .info h1{
     font-size: 3rem;
     letter-spacing: 1px;
+    padding-top: 20px;
 }
 #inicio .contenido-seccion .info h2{
     font-weight: normal;
